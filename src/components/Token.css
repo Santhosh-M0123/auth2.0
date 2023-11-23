@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* .client {
+    background-image: url('Images/good-good-good-UCoaJKrM808-unsplash.jpg');
+    background-size: cover;
+} */
+
+
+.acc-frm {
+    box-shadow: 10px 23px 16px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    padding: 40px;
+    margin-left: 550px;
+    background: rgba(107, 105, 105, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(8.6px);
+    -webkit-backdrop-filter: blur(8.6px);
+    border: 1px solid rgba(148, 144, 144, 0.05);
+    color:white;
+}
+
+.acc-frm #emailHelp{
+    color: black;
+}
+
+.acc-frm button {
+    width: 100%;
+}
+
+.acc-frm button:hover {
+    background-color: crimson;
+    color: white;
+    border: 1px solid crimson;
+}
+
+
+
+.tokRevoke {
+    width: 400px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 550px;
+    margin-top: 150px;
+    padding: 20px;
+    padding-right: 40px;
+    box-shadow: 10px 23px 16px 10px rgba(0, 0, 0, 0.2);
+    
+    background: rgba(107, 105, 105, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(8.6px);
+    -webkit-backdrop-filter: blur(8.6px);
+    border: 1px solid rgba(148, 144, 144, 0.05);
+}
+
+.tokRevoke label {
+    margin: 10px;
+    font-weight: bold;
+}
+
+.tokRevoke input {
+    margin: 10px;
+}
+
+.tokRevoke button {
+    margin: 10px;
+    width: 100%;
+}
+
+.tokRevoke button:hover {
+    background-color: crimson;
+    color: white;
+    border: 1px solid crimson;
+}
+
+.popup {
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    z-index: 1;
+    backdrop-filter: blur(0px) saturate(0%);
+    -webkit-backdrop-filter: blur(0px) saturate(0%);
+    background-color: rgba(5, 5, 5, 0.75);
+    border: 1px solid rgba(19, 18, 18, 0.125);
+    padding: 20px;
+    transition: 5s;
+}
+
+.popup button {
+    width: 100%;
+    margin: 10px;
+}
+
+.popup .mb-3 {
+    background-color: white;
+    width: 380px;
+    height: 250px;
+    margin-left: 550px;
+    margin-top: 150px;
+    margin-right: 450px;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+
+.popup label {
+    padding: 10px;
+}
+
+.popup button{
+    margin-right: 50px;
+    width: 90%;
+}
+
+.popup button:hover {
+    background-color: crimson;
+    color: white;
+    border: 1px solid crimson;
+}
+
+.notify {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    color: crimson;
+    font-weight: bold;
+}
+
+.hide-form{
+    display: none;
+}
+.display-img{
+    display: block;
+}
+.img-display{
+    display: none;
+}
+.img-client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+}
+.img-client img{
+    width: 400px;
+    height: 400px;
+}
+.success{
+    text-align: center;
+}
